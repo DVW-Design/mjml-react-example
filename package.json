@@ -27,7 +27,7 @@
     "express": "^4.16.4",
     "mjml": "^4.3.1",
     "mjml-react": "^1.0.45",
-    "nodemon": "^1.18.9",
+    "nodemon": "^3.1.0",
     "react": "^16.7.0",
     "react-dom": "^16.7.0"
   }

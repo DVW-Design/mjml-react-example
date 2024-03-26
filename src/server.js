@@ -4,7 +4,7 @@ import {render} from 'mjml-react';
 import * as email1 from './email';
 import * as email2 from './email-second';
 
-const port = 3000;
+const port = 3010;
 const app = express();
 
 app.get('/2', (req, res) => {

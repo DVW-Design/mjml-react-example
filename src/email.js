@@ -4,15 +4,21 @@ import { readFileSync } from 'fs';
 import {
   Mjml,
   MjmlHead,
+  MjmlFont,
   MjmlTitle,
   MjmlPreview,
+  MjmlBreakpoint,
   MjmlBody,
+  MjmlWrapper,
   MjmlSection,
   MjmlColumn,
   MjmlButton,
   MjmlImage,
   MjmlStyle,
-  MjmlText
+  MjmlClass,
+  MjmlText,
+  MjmlSocial,
+  MjmlSocialElement
 } from 'mjml-react';
 
 const css = readFileSync('./assets/styles.css').toString();
